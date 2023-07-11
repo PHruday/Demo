@@ -1,6 +1,7 @@
 package Selenium_Methods;
 
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -16,5 +17,10 @@ public class A  {
 	public void failTest() {
 		Assert.fail();
 		System.out.println("Failed");
+	}
+	
+	@Test
+	public void skipTest() {
+		 throw new SkipException("Skipped");
 	}
 }
