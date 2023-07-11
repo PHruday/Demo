@@ -11,6 +11,9 @@ public class A  {
 	@Test
 	public void passTest() {
 		System.out.println("Passed");
+		System.out.println("Pass the Test");
+		System.out.println("New");
+		System.out.println("Stash");
 	}
 	
 	@Test
