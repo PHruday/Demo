@@ -12,12 +12,8 @@ public class A  {
 	public void passTest() {
 		System.out.println("Passed");
 		System.out.println("Pass the Test");
-<<<<<<< HEAD
 		System.out.println("New");
-		System.out.println("Stash");
-=======
->>>>>>> stash
-	}
+		System.out.println("Stash");	}
 	
 	@Test
 	public void failTest() {
